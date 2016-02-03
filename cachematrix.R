@@ -1,6 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+# Computes the inverse matrix of a given matrix. The firs time the
+# inverse matrix is computed the result is cached for faster access
+# next time it is needed.
+
 ## Write a short comment describing this function
 
 # This function caches the result of an (inverse) matrix, 
