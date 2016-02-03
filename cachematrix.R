@@ -2,8 +2,10 @@
 ## functions do
 
 ## Write a short comment describing this function
+
 # This function caches the result of an (inverse) matrix, 
 # potentially reduces the number of times this expensive computation is made.
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -19,6 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+# This functions returns the cached inverse matrix if it exists
+# Otherwise, the inverse matrix is computed and cached.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
